@@ -1,0 +1,15 @@
+child_table,child_column,parent_table,parent_column
+animal_diet,f_id,feeds,f_id
+employee_skills,e_id,employee,e_id
+animal,species,species,s_name
+animal_diet,species,species,s_name
+feeding_records,a_id,animal,a_id
+feeding_records,fed_by,employee,e_id
+feeding_records,f_id,feeds,f_id
+feeding_inventory,f_id,feeds,f_id
+feeding_inventory,feeding_id,feeding_records,feeding_id
+employee_shift,a_id,animal,a_id
+employee_shift,e_id,employee,e_id
+employee_shift,t_id,task,t_id
+animal_state_record,a_id,animal,a_id
+animal_state_record,recorded_by,employee,e_id

@@ -1,0 +1,21 @@
+query,condition,trial,elapsed_ms
+Feeding history,without_index,1,5.1
+Feeding history,without_index,2,4.3
+Feeding history,without_index,3,3.8
+Feeding history,without_index,4,5.7
+Feeding history,without_index,5,29.0
+Feeding history,with_index,1,4.4
+Feeding history,with_index,2,0.6
+Feeding history,with_index,3,0.5
+Feeding history,with_index,4,1.6
+Feeding history,with_index,5,0.8
+Animal trends,without_index,1,5.8
+Animal trends,without_index,2,38.0
+Animal trends,without_index,3,1.8
+Animal trends,without_index,4,1.4
+Animal trends,without_index,5,1.4
+Animal trends,with_index,1,0.9
+Animal trends,with_index,2,0.6
+Animal trends,with_index,3,0.5
+Animal trends,with_index,4,0.6
+Animal trends,with_index,5,3.6

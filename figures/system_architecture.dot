@@ -1,0 +1,16 @@
+digraph G {
+graph [rankdir=TB,bgcolor="white",pad="0.25",nodesep="0.45",ranksep="0.65",labelloc=t,label="Zoo management system | Data architecture",fontsize=22,fontname="DejaVu Sans"];
+node [shape=box,style="rounded,filled",color="#8497ad",fontname="DejaVu Sans",margin="0.24,0.14",fillcolor="#e6eef9"];
+edge [fontname="DejaVu Sans",fontsize=10,color="#65758b"];
+users [label="Keepers / administrators"];
+client [label="Python CLI (Rich)"];
+server [label="Threaded Python server
+Action dispatch and business rules"];
+pg [label="PostgreSQL
+12 relational tables
+Transactions, inventory, shifts",fillcolor="#e4f2eb"];
+mongo [label="MongoDB
+Audit, login and health events",fillcolor="#fff0d9"];
+users -> client; client -> server [label="TCP / JSON",dir=both]; server -> pg [label="SQL / connection pool",dir=both]; server -> mongo [label="Document operations",dir=both];
+{rank=same;pg;mongo;}
+}

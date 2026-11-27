@@ -1,0 +1,3 @@
+query,trials_per_condition,mean_without_ms,mean_with_ms,sample_sd_without_ms,sample_sd_with_ms,mean_speedup
+Feeding history,5,9.58,1.58,10.8806,1.6346,6.0633
+Animal trends,5,9.68,1.24,15.9396,1.3278,7.8065
